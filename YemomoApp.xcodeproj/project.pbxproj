@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		737826BB2C38F5A60051CC3B /* YemomoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737826BA2C38F5A60051CC3B /* YemomoAppApp.swift */; };
+		737826BD2C38F5A60051CC3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737826BC2C38F5A60051CC3B /* ContentView.swift */; };
+		737826BF2C38F5A70051CC3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737826BE2C38F5A70051CC3B /* Assets.xcassets */; };
+		737826C22C38F5A70051CC3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737826C12C38F5A70051CC3B /* Preview Assets.xcassets */; };
+		737826CC2C38F5A70051CC3B /* YemomoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737826CB2C38F5A70051CC3B /* YemomoAppTests.swift */; };
+		737826D62C38F5A70051CC3B /* YemomoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737826D52C38F5A70051CC3B /* YemomoAppUITests.swift */; };
+		737826D82C38F5A70051CC3B /* YemomoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737826D72C38F5A70051CC3B /* YemomoAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		737826C82C38F5A70051CC3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 737826AF2C38F5A60051CC3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 737826B62C38F5A60051CC3B;
+			remoteInfo = YemomoApp;
+		};
+		737826D22C38F5A70051CC3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 737826AF2C38F5A60051CC3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 737826B62C38F5A60051CC3B;
+			remoteInfo = YemomoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		737826B72C38F5A60051CC3B /* YemomoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YemomoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		737826BA2C38F5A60051CC3B /* YemomoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemomoAppApp.swift; sourceTree = "<group>"; };
+		737826BC2C38F5A60051CC3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		737826BE2C38F5A70051CC3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		737826C12C38F5A70051CC3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		737826C72C38F5A70051CC3B /* YemomoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YemomoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		737826CB2C38F5A70051CC3B /* YemomoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemomoAppTests.swift; sourceTree = "<group>"; };
+		737826D12C38F5A70051CC3B /* YemomoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YemomoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		737826D52C38F5A70051CC3B /* YemomoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemomoAppUITests.swift; sourceTree = "<group>"; };
+		737826D72C38F5A70051CC3B /* YemomoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemomoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		737826B42C38F5A60051CC3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737826C42C38F5A70051CC3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737826CE2C38F5A70051CC3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		737826AE2C38F5A60051CC3B = {
+			isa = PBXGroup;
+			children = (
+				737826B92C38F5A60051CC3B /* YemomoApp */,
+				737826CA2C38F5A70051CC3B /* YemomoAppTests */,
+				737826D42C38F5A70051CC3B /* YemomoAppUITests */,
+				737826B82C38F5A60051CC3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		737826B82C38F5A60051CC3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				737826B72C38F5A60051CC3B /* YemomoApp.app */,
+				737826C72C38F5A70051CC3B /* YemomoAppTests.xctest */,
+				737826D12C38F5A70051CC3B /* YemomoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		737826B92C38F5A60051CC3B /* YemomoApp */ = {
+			isa = PBXGroup;
+			children = (
+				737826BA2C38F5A60051CC3B /* YemomoAppApp.swift */,
+				737826BC2C38F5A60051CC3B /* ContentView.swift */,
+				737826BE2C38F5A70051CC3B /* Assets.xcassets */,
+				737826C02C38F5A70051CC3B /* Preview Content */,
+			);
+			path = YemomoApp;
+			sourceTree = "<group>";
+		};
+		737826C02C38F5A70051CC3B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				737826C12C38F5A70051CC3B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		737826CA2C38F5A70051CC3B /* YemomoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				737826CB2C38F5A70051CC3B /* YemomoAppTests.swift */,
+			);
+			path = YemomoAppTests;
+			sourceTree = "<group>";
+		};
+		737826D42C38F5A70051CC3B /* YemomoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				737826D52C38F5A70051CC3B /* YemomoAppUITests.swift */,
+				737826D72C38F5A70051CC3B /* YemomoAppUITestsLaunchTests.swift */,
+			);
+			path = YemomoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		737826B62C38F5A60051CC3B /* YemomoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 737826DB2C38F5A70051CC3B /* Build configuration list for PBXNativeTarget "YemomoApp" */;
+			buildPhases = (
+				737826B32C38F5A60051CC3B /* Sources */,
+				737826B42C38F5A60051CC3B /* Frameworks */,
+				737826B52C38F5A60051CC3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YemomoApp;
+			productName = YemomoApp;
+			productReference = 737826B72C38F5A60051CC3B /* YemomoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		737826C62C38F5A70051CC3B /* YemomoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 737826DE2C38F5A70051CC3B /* Build configuration list for PBXNativeTarget "YemomoAppTests" */;
+			buildPhases = (
+				737826C32C38F5A70051CC3B /* Sources */,
+				737826C42C38F5A70051CC3B /* Frameworks */,
+				737826C52C38F5A70051CC3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				737826C92C38F5A70051CC3B /* PBXTargetDependency */,
+			);
+			name = YemomoAppTests;
+			productName = YemomoAppTests;
+			productReference = 737826C72C38F5A70051CC3B /* YemomoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		737826D02C38F5A70051CC3B /* YemomoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 737826E12C38F5A70051CC3B /* Build configuration list for PBXNativeTarget "YemomoAppUITests" */;
+			buildPhases = (
+				737826CD2C38F5A70051CC3B /* Sources */,
+				737826CE2C38F5A70051CC3B /* Frameworks */,
+				737826CF2C38F5A70051CC3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				737826D32C38F5A70051CC3B /* PBXTargetDependency */,
+			);
+			name = YemomoAppUITests;
+			productName = YemomoAppUITests;
+			productReference = 737826D12C38F5A70051CC3B /* YemomoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		737826AF2C38F5A60051CC3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					737826B62C38F5A60051CC3B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					737826C62C38F5A70051CC3B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 737826B62C38F5A60051CC3B;
+					};
+					737826D02C38F5A70051CC3B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 737826B62C38F5A60051CC3B;
+					};
+				};
+			};
+			buildConfigurationList = 737826B22C38F5A60051CC3B /* Build configuration list for PBXProject "YemomoApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 737826AE2C38F5A60051CC3B;
+			productRefGroup = 737826B82C38F5A60051CC3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				737826B62C38F5A60051CC3B /* YemomoApp */,
+				737826C62C38F5A70051CC3B /* YemomoAppTests */,
+				737826D02C38F5A70051CC3B /* YemomoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		737826B52C38F5A60051CC3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737826C22C38F5A70051CC3B /* Preview Assets.xcassets in Resources */,
+				737826BF2C38F5A70051CC3B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737826C52C38F5A70051CC3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737826CF2C38F5A70051CC3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		737826B32C38F5A60051CC3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737826BD2C38F5A60051CC3B /* ContentView.swift in Sources */,
+				737826BB2C38F5A60051CC3B /* YemomoAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737826C32C38F5A70051CC3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737826CC2C38F5A70051CC3B /* YemomoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737826CD2C38F5A70051CC3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737826D82C38F5A70051CC3B /* YemomoAppUITestsLaunchTests.swift in Sources */,
+				737826D62C38F5A70051CC3B /* YemomoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		737826C92C38F5A70051CC3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 737826B62C38F5A60051CC3B /* YemomoApp */;
+			targetProxy = 737826C82C38F5A70051CC3B /* PBXContainerItemProxy */;
+		};
+		737826D32C38F5A70051CC3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 737826B62C38F5A60051CC3B /* YemomoApp */;
+			targetProxy = 737826D22C38F5A70051CC3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		737826D92C38F5A70051CC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		737826DA2C38F5A70051CC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		737826DC2C38F5A70051CC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YemomoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ZM57HELHSL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncuhome.YEMOMO.YemomoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		737826DD2C38F5A70051CC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YemomoApp/Preview Content\"";
+				DEVELOPMENT_TEAM = ZM57HELHSL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncuhome.YEMOMO.YemomoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		737826DF2C38F5A70051CC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZM57HELHSL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncuhome.YEMOMO.YemomoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YemomoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YemomoApp";
+			};
+			name = Debug;
+		};
+		737826E02C38F5A70051CC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZM57HELHSL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncuhome.YEMOMO.YemomoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YemomoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YemomoApp";
+			};
+			name = Release;
+		};
+		737826E22C38F5A70051CC3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZM57HELHSL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncuhome.YEMOMO.YemomoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YemomoApp;
+			};
+			name = Debug;
+		};
+		737826E32C38F5A70051CC3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZM57HELHSL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncuhome.YEMOMO.YemomoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YemomoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		737826B22C38F5A60051CC3B /* Build configuration list for PBXProject "YemomoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737826D92C38F5A70051CC3B /* Debug */,
+				737826DA2C38F5A70051CC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		737826DB2C38F5A70051CC3B /* Build configuration list for PBXNativeTarget "YemomoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737826DC2C38F5A70051CC3B /* Debug */,
+				737826DD2C38F5A70051CC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		737826DE2C38F5A70051CC3B /* Build configuration list for PBXNativeTarget "YemomoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737826DF2C38F5A70051CC3B /* Debug */,
+				737826E02C38F5A70051CC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		737826E12C38F5A70051CC3B /* Build configuration list for PBXNativeTarget "YemomoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737826E22C38F5A70051CC3B /* Debug */,
+				737826E32C38F5A70051CC3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 737826AF2C38F5A60051CC3B /* Project object */;
+}
