@@ -14,6 +14,10 @@
 		737826CC2C38F5A70051CC3B /* YemomoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737826CB2C38F5A70051CC3B /* YemomoAppTests.swift */; };
 		737826D62C38F5A70051CC3B /* YemomoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737826D52C38F5A70051CC3B /* YemomoAppUITests.swift */; };
 		737826D82C38F5A70051CC3B /* YemomoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737826D72C38F5A70051CC3B /* YemomoAppUITestsLaunchTests.swift */; };
+		737826E62C3ABA160051CC3B /* PreViewModify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737826E52C3ABA160051CC3B /* PreViewModify.swift */; };
+		7378273C2C3F78960051CC3B /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7378273B2C3F78960051CC3B /* CardView.swift */; };
+		7378273E2C3FA8C60051CC3B /* WaterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7378273D2C3FA8C60051CC3B /* WaterCardView.swift */; };
+		737827412C3FAFD50051CC3B /* WarGameContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737827402C3FAFD50051CC3B /* WarGameContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		737826D12C38F5A70051CC3B /* YemomoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YemomoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		737826D52C38F5A70051CC3B /* YemomoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemomoAppUITests.swift; sourceTree = "<group>"; };
 		737826D72C38F5A70051CC3B /* YemomoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemomoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		737826E52C3ABA160051CC3B /* PreViewModify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreViewModify.swift; sourceTree = "<group>"; };
+		7378273B2C3F78960051CC3B /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		7378273D2C3FA8C60051CC3B /* WaterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterCardView.swift; sourceTree = "<group>"; };
+		737827402C3FAFD50051CC3B /* WarGameContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarGameContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +102,13 @@
 		737826B92C38F5A60051CC3B /* YemomoApp */ = {
 			isa = PBXGroup;
 			children = (
+				7378273D2C3FA8C60051CC3B /* WaterCardView.swift */,
+				737827402C3FAFD50051CC3B /* WarGameContent.swift */,
+				7378273B2C3F78960051CC3B /* CardView.swift */,
 				737826BA2C38F5A60051CC3B /* YemomoAppApp.swift */,
 				737826BC2C38F5A60051CC3B /* ContentView.swift */,
 				737826BE2C38F5A70051CC3B /* Assets.xcassets */,
+				737826E42C3AB9FD0051CC3B /* PreviewModify */,
 				737826C02C38F5A70051CC3B /* Preview Content */,
 			);
 			path = YemomoApp;
@@ -125,6 +137,14 @@
 				737826D72C38F5A70051CC3B /* YemomoAppUITestsLaunchTests.swift */,
 			);
 			path = YemomoAppUITests;
+			sourceTree = "<group>";
+		};
+		737826E42C3AB9FD0051CC3B /* PreviewModify */ = {
+			isa = PBXGroup;
+			children = (
+				737826E52C3ABA160051CC3B /* PreViewModify.swift */,
+			);
+			path = PreviewModify;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				737827412C3FAFD50051CC3B /* WarGameContent.swift in Sources */,
+				737826E62C3ABA160051CC3B /* PreViewModify.swift in Sources */,
 				737826BD2C38F5A60051CC3B /* ContentView.swift in Sources */,
+				7378273E2C3FA8C60051CC3B /* WaterCardView.swift in Sources */,
+				7378273C2C3F78960051CC3B /* CardView.swift in Sources */,
 				737826BB2C38F5A60051CC3B /* YemomoAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,11 +449,13 @@
 				DEVELOPMENT_TEAM = ZM57HELHSL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = YemomoApp;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,9 +463,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ncuhome.YEMOMO.YemomoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -454,11 +483,13 @@
 				DEVELOPMENT_TEAM = ZM57HELHSL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = YemomoApp;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,9 +497,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ncuhome.YEMOMO.YemomoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
