@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		731297812C44F17E0077D960 /* CommonModify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731297802C44F17E0077D960 /* CommonModify.swift */; };
+		731297852C450AC40077D960 /* FirstTextFieldInput in Frameworks */ = {isa = PBXBuildFile; productRef = 731297842C450AC40077D960 /* FirstTextFieldInput */; };
+		73455DB92C40DD6300CE26BB /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73455DB82C40DD6300CE26BB /* GameView.swift */; };
+		73455DBB2C40E0D000CE26BB /* PlatformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73455DBA2C40E0D000CE26BB /* PlatformView.swift */; };
+		73455DC02C410CF100CE26BB /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73455DBF2C410CF100CE26BB /* BookView.swift */; };
+		73455DC22C410CFC00CE26BB /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73455DC12C410CFC00CE26BB /* Book.swift */; };
+		73455DC62C4111BE00CE26BB /* BookItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73455DC52C4111BE00CE26BB /* BookItem.swift */; };
+		73455DC92C4118AF00CE26BB /* FormModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73455DC82C4118AF00CE26BB /* FormModal.swift */; };
+		73455DCB2C41191700CE26BB /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73455DCA2C41191700CE26BB /* FormView.swift */; };
+		736E784F2C40C519007048E7 /* SectionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736E784E2C40C519007048E7 /* SectionCard.swift */; };
 		737826BB2C38F5A60051CC3B /* YemomoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737826BA2C38F5A60051CC3B /* YemomoAppApp.swift */; };
 		737826BD2C38F5A60051CC3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737826BC2C38F5A60051CC3B /* ContentView.swift */; };
 		737826BF2C38F5A70051CC3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737826BE2C38F5A70051CC3B /* Assets.xcassets */; };
@@ -38,6 +48,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		731297802C44F17E0077D960 /* CommonModify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonModify.swift; sourceTree = "<group>"; };
+		731297822C4509F50077D960 /* FirstTextFieldInput */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FirstTextFieldInput; path = ../FirstTextFieldInput; sourceTree = "<group>"; };
+		73455DB82C40DD6300CE26BB /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		73455DBA2C40E0D000CE26BB /* PlatformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformView.swift; sourceTree = "<group>"; };
+		73455DBF2C410CF100CE26BB /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		73455DC12C410CFC00CE26BB /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		73455DC52C4111BE00CE26BB /* BookItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookItem.swift; sourceTree = "<group>"; };
+		73455DC82C4118AF00CE26BB /* FormModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormModal.swift; sourceTree = "<group>"; };
+		73455DCA2C41191700CE26BB /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		736E784E2C40C519007048E7 /* SectionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionCard.swift; sourceTree = "<group>"; };
 		737826B72C38F5A60051CC3B /* YemomoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YemomoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		737826BA2C38F5A60051CC3B /* YemomoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YemomoAppApp.swift; sourceTree = "<group>"; };
 		737826BC2C38F5A60051CC3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				731297852C450AC40077D960 /* FirstTextFieldInput in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,13 +100,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		731297832C450AC40077D960 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73455DB72C40DD4600CE26BB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				736E784E2C40C519007048E7 /* SectionCard.swift */,
+				73455DB82C40DD6300CE26BB /* GameView.swift */,
+				73455DBA2C40E0D000CE26BB /* PlatformView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		73455DBC2C41023200CE26BB /* BooklView */ = {
+			isa = PBXGroup;
+			children = (
+				73455DBF2C410CF100CE26BB /* BookView.swift */,
+				73455DC12C410CFC00CE26BB /* Book.swift */,
+				73455DC52C4111BE00CE26BB /* BookItem.swift */,
+			);
+			path = BooklView;
+			sourceTree = "<group>";
+		};
+		73455DC72C41189F00CE26BB /* FormView */ = {
+			isa = PBXGroup;
+			children = (
+				73455DC82C4118AF00CE26BB /* FormModal.swift */,
+				73455DCA2C41191700CE26BB /* FormView.swift */,
+				731297802C44F17E0077D960 /* CommonModify.swift */,
+			);
+			path = FormView;
+			sourceTree = "<group>";
+		};
 		737826AE2C38F5A60051CC3B = {
 			isa = PBXGroup;
 			children = (
+				731297822C4509F50077D960 /* FirstTextFieldInput */,
 				737826B92C38F5A60051CC3B /* YemomoApp */,
 				737826CA2C38F5A70051CC3B /* YemomoAppTests */,
 				737826D42C38F5A70051CC3B /* YemomoAppUITests */,
 				737826B82C38F5A60051CC3B /* Products */,
+				731297832C450AC40077D960 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +162,9 @@
 		737826B92C38F5A60051CC3B /* YemomoApp */ = {
 			isa = PBXGroup;
 			children = (
+				73455DC72C41189F00CE26BB /* FormView */,
+				73455DBC2C41023200CE26BB /* BooklView */,
+				73455DB72C40DD4600CE26BB /* Screens */,
 				7378273D2C3FA8C60051CC3B /* WaterCardView.swift */,
 				737827402C3FAFD50051CC3B /* WarGameContent.swift */,
 				7378273B2C3F78960051CC3B /* CardView.swift */,
@@ -163,6 +226,9 @@
 			dependencies = (
 			);
 			name = YemomoApp;
+			packageProductDependencies = (
+				731297842C450AC40077D960 /* FirstTextFieldInput */,
+			);
 			productName = YemomoApp;
 			productReference = 737826B72C38F5A60051CC3B /* YemomoApp.app */;
 			productType = "com.apple.product-type.application";
@@ -277,12 +343,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73455DC22C410CFC00CE26BB /* Book.swift in Sources */,
+				73455DBB2C40E0D000CE26BB /* PlatformView.swift in Sources */,
+				73455DCB2C41191700CE26BB /* FormView.swift in Sources */,
 				737827412C3FAFD50051CC3B /* WarGameContent.swift in Sources */,
 				737826E62C3ABA160051CC3B /* PreViewModify.swift in Sources */,
+				73455DC62C4111BE00CE26BB /* BookItem.swift in Sources */,
 				737826BD2C38F5A60051CC3B /* ContentView.swift in Sources */,
+				736E784F2C40C519007048E7 /* SectionCard.swift in Sources */,
 				7378273E2C3FA8C60051CC3B /* WaterCardView.swift in Sources */,
 				7378273C2C3F78960051CC3B /* CardView.swift in Sources */,
+				73455DC92C4118AF00CE26BB /* FormModal.swift in Sources */,
+				73455DB92C40DD6300CE26BB /* GameView.swift in Sources */,
 				737826BB2C38F5A60051CC3B /* YemomoAppApp.swift in Sources */,
+				731297812C44F17E0077D960 /* CommonModify.swift in Sources */,
+				73455DC02C410CF100CE26BB /* BookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,6 +697,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		731297842C450AC40077D960 /* FirstTextFieldInput */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FirstTextFieldInput;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 737826AF2C38F5A60051CC3B /* Project object */;
 }

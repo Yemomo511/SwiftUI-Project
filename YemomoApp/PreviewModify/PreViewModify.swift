@@ -14,6 +14,7 @@ import SwiftUI
 struct SampleModify: ViewModifier {
     var AppState: AppState
     var cornerRadius: Int = 3
+    // body 里面的 content 就是被修饰的视图
     func body(content: Content) -> some View {
         content.environment(AppState).cornerRadius(CGFloat(cornerRadius))
     }

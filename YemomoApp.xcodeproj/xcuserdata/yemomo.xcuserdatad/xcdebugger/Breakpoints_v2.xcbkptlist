@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F1004104-9544-4612-902B-B23F0310A95D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6EEBF480-ADA2-4F19-AE6E-5E5F67DC46CF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YemomoApp/SectionCard.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "platForms"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "6EEBF480-ADA2-4F19-AE6E-5E5F67DC46CF - 4c1df8d524804a5f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YemomoApp.SectionCard.body.getter : some"
+                  moduleName = "YemomoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yemomo/metaCarbon/YemomoApp/YemomoApp/SectionCard.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "288">
+               </Location>
+               <Location
+                  uuid = "6EEBF480-ADA2-4F19-AE6E-5E5F67DC46CF - 4c1df8d524804b80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YemomoApp.SectionCard.body.getter : some"
+                  moduleName = "YemomoApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yemomo/metaCarbon/YemomoApp/YemomoApp/SectionCard.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "288">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63DF961C-135D-4225-B03E-BE4AF95B05F6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YemomoApp/FormView/TextInputField.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "TextInputField"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

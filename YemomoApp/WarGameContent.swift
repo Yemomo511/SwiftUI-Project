@@ -4,14 +4,22 @@
 //
 //  Created by 叶墨沫 on 2024/7/11.
 //
-
-//Swift 也是基于
 import SwiftUI
+
+@ViewBuilder
+func createView(@ViewBuilder content:()->some View)-> some View{
+    VStack{
+        content()
+        Text("World")
+    }
+}
+
 
 struct TimesPlayer: View {
     @Binding var playerScore: Int
     var title: String
     var body: some View {
+        
         VStack(spacing: 10.0) {
             Text(title)
             Text("\(playerScore)")
@@ -55,6 +63,9 @@ struct WarGameContent: View {
                 }
 
                 Spacer()
+                createView(content: {
+                    Text("Hello")
+                })
                 HStack {
                     Spacer()
                     TimesPlayer(playerScore: $playerScore, title: "player")

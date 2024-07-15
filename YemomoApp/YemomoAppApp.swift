@@ -32,7 +32,8 @@ extension View {
 struct YemomoAppApp: App {
     var body: some Scene {
         WindowGroup {
-            WarGameContent()
+//            WarGameContent()
+            SectionCard()
         }
     }
 }
